@@ -1,0 +1,74 @@
+body {
+    background: url('Pga.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Nuevos estilos para los div laterales */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: rgba(255, 182, 193, 0.5); /* Fondo rosado transparente */
+    width: 50%; /* Ancho de las barras laterales */
+    height: flex; /* Altura completa de la ventana */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+#casa {
+    margin-top: 20px;
+}
+
+#casa img {
+    width: 50px;
+    height: 50px;
+}
